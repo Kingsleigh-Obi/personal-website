@@ -1,0 +1,294 @@
+body
+{
+    margin: 0;
+    padding: 0;
+}
+.top-container
+{
+    background-image: url('/images/sky.png');
+    height: 262px;
+    text-align: center;
+    margin-top: -25px;
+    padding-top: 100px;
+    font-family: 'Pacifico', cursive;
+    color: #190482;
+}
+hr
+{
+   border: 1px solid rgb(120,188,253);
+}
+
+.middle-container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Merriweather', serif;
+}
+
+.mixed-content
+{
+    display: flex;
+    margin-bottom: 30px;
+}
+img
+{
+    width: 250px;
+    border-radius: 10px;
+    margin-right: 20px;
+    height: 200px;
+}
+
+.about-me1
+{
+    margin-bottom: 80px;
+}
+.about-me2
+{
+    width: 500px;
+}
+
+.about-me2 h2
+{
+    color: #190482;
+}
+
+
+.hello
+{
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    color: #190482;
+}
+
+.engineering
+{
+    text-align: center;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Merriweather', serif;
+    
+}
+
+.touch
+{
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+.touch h2
+{
+    color: #190482;
+}
+
+.short-note
+{
+    color: #190482;
+    font-weight: 700;
+}
+
+.socials
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    gap: 50px;
+    background-color: lightblue;
+}
+
+.money
+{
+    background-color: lightblue;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: black;
+    margin-top: 50px;
+    font-family: 'Merriweather', serif;
+}
+
+a
+{
+    text-decoration: none;
+    color: #190482;
+}
+
+.copyright
+{
+    text-align: center;
+}
+
+button
+{
+    height: 50px;
+    width: 150px;
+    border-radius: 10px;
+    background-color: #190482;
+    color: white;
+}
+
+button:hover
+{
+    background-color: lightblue;
+}
+
+@media(max-width: 414px)
+{
+    body
+    {
+        margin: 0;
+        padding: 0;
+        
+    }
+    .top-container
+    {
+        background-image: url(/images/sky.png);
+        height: 262px;
+        text-align: center;
+        margin-top: -25px;
+        padding-top: 50px;
+        font-family: 'Pacifico', cursive;
+        color: #190482;
+        width: 450px;
+        font-size: 20px;
+
+    }
+    hr
+    {
+    border: 1px solid rgb(120,188,253);
+    }
+
+    .middle-container
+    {
+        display: flex;
+        flex-direction: column;
+        font-family: 'Merriweather', serif;
+        
+    }
+
+    .info
+    {
+        width: 100px;
+    }
+    .mixed-content
+    {
+        display: flex;
+        margin-bottom: 30px;
+        width: 310px;
+        margin-right: auto;
+        margin-left: auto;
+       
+    }
+    img
+    {
+        width: 150px;
+        border-radius: 10px;
+        margin-right: 0px;
+        height: 200px;
+
+    }
+
+    .about-me1
+    {
+        margin-bottom: 80px;
+        text-align: center;
+    }
+   
+
+    .about-me2 h2
+    {
+        color: #190482;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+
+    .hello
+    {
+        
+        font-family: 'Merriweather', serif;
+        color: #190482;
+    }
+
+    .engineering
+    {
+        
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+        font-family: 'Merriweather', serif;
+        
+    }
+
+    .touch
+    {
+        text-align: center;
+        font-family: 'Merriweather', serif;
+    }
+
+    .touch h2
+    {
+        color: #190482;
+    }
+
+    .short-note
+    {
+        color: #190482;
+        font-weight: 700;
+    }
+
+    .touch > .long-note
+    {
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+    .socials
+    {
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+        gap: 50px;
+        background-color: lightblue;
+    }
+
+    .money
+    {
+        background-color: lightblue;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        color: black;
+        margin-top: 50px;
+        font-family: 'Merriweather', serif;
+        width: 400px;
+    }
+
+    a
+    {
+        text-decoration: none;
+        color: #190482;
+    }
+
+    .copyright
+    {
+        text-align: center;
+    }
+
+    button
+    {
+        height: 50px;
+        width: 150px;
+        border-radius: 10px;
+        background-color: #190482;
+        color: white;
+    }
+
+    button:hover
+    {
+        background-color: lightblue;
+    }   
+
+   
+}
